@@ -1,9 +1,9 @@
 import { ReactElement, createElement } from "react";
-import { HelloWorldSample } from "./components/HelloWorldSample";
+import ClickedAlert from "./components/ClickedAlert";
 import { SnackbarPreviewProps } from "../typings/SnackbarProps";
 
 export function preview({ sampleText }: SnackbarPreviewProps): ReactElement {
-    return <HelloWorldSample sampleText={sampleText} />;
+    return <ClickedAlert alertMessage={sampleText}/>;
 }
 
 export function getPreviewCss(): string {

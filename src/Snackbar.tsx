@@ -1,10 +1,14 @@
 import { ReactElement, createElement } from "react";
-import { HelloWorldSample } from "./components/HelloWorldSample";
 
 import { SnackbarContainerProps } from "../typings/SnackbarProps";
+import ClickedAlert from "./components/ClickedAlert";
 
 import "./ui/Snackbar.css";
 
 export function Snackbar({ sampleText }: SnackbarContainerProps): ReactElement {
-    return <HelloWorldSample sampleText={sampleText ? sampleText : "World"} />;
+    return (
+        <div>
+            <ClickedAlert alertMessage={sampleText}/>    
+        </div>
+    )
 }
