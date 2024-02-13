@@ -1,4 +1,5 @@
-.bottom-left {
+.alert-bottom-left {
+    position: fixed;
     bottom: 0;
     left: 0;
     background-color: rgba(171, 255, 44, 0.444);
@@ -9,15 +10,9 @@
     margin: 20px;
 }
   
-.container {
-    position: absolute;
+.alert-container {
     padding: 5px;
     font-size: smaller;
-    width: 100%; 
     text-align: center;
+    width: 230px;
 }
-  
-.content {
-    margin: 0;
-}
-  

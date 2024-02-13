@@ -25,7 +25,7 @@ export interface ClickedAlertProps {
     return (
       <div>
         <button onClick={handleClick}>Click Me!</button>
-        <div>{showNotif && <Alert alertMessage={alertMessage} />}</div>
+        <div className="alert-message">{showNotif && <Alert alertMessage={alertMessage} />}</div>
       </div>
     );
   }
