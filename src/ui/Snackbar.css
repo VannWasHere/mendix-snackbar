@@ -1,6 +1,23 @@
-/*
-Place your custom CSS here
-*/
-.widget-hello-world {
-
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    background-color: rgba(171, 255, 44, 0.444);
+    color: rgb(255, 0, 0);
+    width: 230px;
+    border-radius: 8px;
+    height: 80px;
+    margin: 20px;
 }
+  
+.container {
+    position: absolute;
+    padding: 5px;
+    font-size: smaller;
+    width: 100%; 
+    text-align: center;
+}
+  
+.content {
+    margin: 0;
+}
+  
